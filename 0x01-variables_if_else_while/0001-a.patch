@@ -1,0 +1,91 @@
+From 70991a75af98e23e1d8446000d806c8d18c7d932 Mon Sep 17 00:00:00 2001
+From: Ahmed <ahmed01033774549@gmail.com>
+Date: Fri, 17 Mar 2023 20:59:42 +0200
+Subject: [PATCH] =?UTF-8?q?=E2=80=9Ca=E2=80=9D?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+---
+ .../0-positive_or_negative                      | Bin 0 -> 16088 bytes
+ .../0-positive_or_negative.c                    |   4 ++--
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+ create mode 100755 0x01-variables_if_else_while/0-positive_or_negative
+
+diff --git a/0x01-variables_if_else_while/0-positive_or_negative b/0x01-variables_if_else_while/0-positive_or_negative
+new file mode 100755
+index 0000000000000000000000000000000000000000..2d9925472f9e16ab0e7178817a53d59bf3f3a8ee
+GIT binary patch
+literal 16088
+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
+
+literal 0
+HcmV?d00001
+
+diff --git a/0x01-variables_if_else_while/0-positive_or_negative.c b/0x01-variables_if_else_while/0-positive_or_negative.c
+index 7d71362..bd4bab5 100755
+--- a/0x01-variables_if_else_while/0-positive_or_negative.c
++++ b/0x01-variables_if_else_while/0-positive_or_negative.c
+@@ -1,6 +1,6 @@
+-#include <stdio.h>
++#include <stdlib.h>
+ 
+-#include <stdio.h>
++#include <time.h>
+ 
+ #include <stdio.h>
+ 
+-- 
+2.34.1
+
