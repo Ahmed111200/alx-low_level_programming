@@ -13,11 +13,11 @@ int i = 0, ii;
 
 while (i < n && n > 0)
 {
-i = 0;
+ii = 0;
 while (ii < i)
 {
 _putchar(' ');
-i++;
+ii++;
 }
 
 _putchar('\\');
