@@ -1,42 +1,29 @@
 #include "main.h"
+
 /**
- * print_number -Prints an integer
+ * rot13 - caesers cipher
+ * @str: pointer to an array of words
  *
- * @n: input integer
- *
- * Return: void
+ * Return: s
  */
 
-void print_number(int n)
+char *rot13(char *str)
 {
+	int i, j;
+	char input[80] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char output[80] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
-	int len, index;
+	for (i = 0; str[i] != '\0'; ++i)
+	{
+		for (j = 0; input[j] != '\0'; j++)
+		{
+			if (str[i] == input[j])
+			{
+				str[i] = output[j];
+				break;
+			}
+		}
 
-	len = 1000000000;
-
-	if (n < 0)
-	{
-		_putchar('-');
-
-	if (n == -2147483648)
-	{
-		index = 1;
-		n += 1;
 	}
-	n = -n;
-	}
-	while (len != 1)
-	{
-		if (n >= len)
-			_putchar((n / len) % 10 + '0');
-		len /= 10;
-	}
-	if (index == 1)
-	{
-		_putchar(((n % 10) + 1) + '0');
-	}
-	else
-	{
-		_putchar(n % 10 + '0');
-	}
+	return (str);
 }
