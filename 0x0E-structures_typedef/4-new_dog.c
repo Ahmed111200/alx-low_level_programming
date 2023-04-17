@@ -2,12 +2,11 @@
 #include "dog.h"
 
 /**
- * _strlen - a function that get a length
+ * _strlen - a function that get a length*
  * @str: the string to length
  *
  * Return: length of @str
 */
-
 
 int _strlen(const char *str)
 {
@@ -78,5 +77,4 @@ dog_t *new_dog(char *name, float age, char *owner)
 	dog->owner = _strcopy(dog->owner, owner);
 
 	return (dog);
-
-
+}
