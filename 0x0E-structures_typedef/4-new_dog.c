@@ -6,7 +6,7 @@
  * @str: the string to length
  *
  * Return: length of @str
- */
+*/
 
 
 int _strlen(const char *str)
@@ -44,6 +44,7 @@ char *_strcopy(char *dest, char *src)
  * @owner: dog owner
  *
  * Return: struct pointer dog
+ *         NULL if function fails
 */
 
 dog_t *new_dog(char *name, float age, char *owner)
@@ -56,6 +57,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	dog = (dog_t *) malloc(sizeof(dog_t));
 	if (dog == NULL)
 		return (NULL);
+
 	dog->name = malloc(sizeof(char) * (_strlen(name) + 1));
 	if ((*dog).name == NULL)
 	{
